@@ -1,0 +1,127 @@
+body {
+  overflow-x: hidden;
+}
+
+.wrap {
+  min-width: 1200px;
+}
+
+.header {
+  border-bottom: 1px solid #f2f2f2;
+  height: 120px;
+  font-family: 'TheJamsil5Bold';
+}
+
+.header a {
+  display: block;
+}
+
+.header .menu_wrap {
+  height: 120px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .gnb>ul {
+  display: flex;
+  gap: 40px;
+
+  padding: 0 44px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.header .gnb>ul>a {
+
+
+  white-space: nowrap;
+}
+
+
+/*  */
+
+
+.main_visual {
+  position: relative;
+  font-family: 'TheJamsil5Bold';
+}
+
+
+
+.main_visual .itm {
+
+  min-width: 100vh;
+  min-height: 88vh;
+}
+
+
+.main_visual .main_slide .itm01 {
+  background: url(../img/slick-1.png)no-repeat center center/cover;
+}
+
+
+
+.main_visual .main_slide .itm01 .one_slogan {
+  position: absolute;
+  top: 40%;
+  line-height: 1.5;
+  color: #f43b00;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.main_visual .main_slide .itm02 {
+  background: url(../img/slick-2.png)no-repeat center center/cover;
+}
+
+.main_visual .main_slide .itm02 .two_slogan {
+  position: absolute;
+  top: 20%;
+  line-height: 1.5;
+  color: #f43b00;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+
+.main_visual .main_slide .itm03 {
+  background: url(../img/slick-3.png)no-repeat center center/cover;
+}
+
+.main_visual .main_slide .itm03 .three_slogan {
+  position: absolute;
+  top: 20%;
+  line-height: 1.5;
+  color: #f43b00;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+
+.main_visual .slick-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.main_visual .main_slide .slick-dots li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #ddd;
+
+  border-radius: 50%;
+  margin: 0 4px 0 0;
+}
+
+.main_visual .main_slide .slick-dots li.slick-active {
+  background: red;
+}
+
+.main_visual .main_slide .slick-dots button {
+
+  display: none;
+}
